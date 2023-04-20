@@ -1,5 +1,6 @@
 # ispc_2
 Repositorio grupal - 2do año Desarrollo Web y Aplicaciones Digitales
+(https://github.com/AngelesMary/Proyecto-Full-stack  --- PADEL CLUB PROYECTO FULLSTACK - REPO ANTERIOR)
 
 La “consultora ISPC”, solicita  en esta oportunidad, incorporar un módulo de e-commerce para comercializar sus productos y/o servicios online.
 Se propone la distribución de los siguientes Sprints:
