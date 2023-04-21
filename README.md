@@ -13,6 +13,6 @@ SPRINT 0 ---  Fecha Inicio = 10/04/2023 -  Fecha de Fin = 21/04/2023.
 - Definir requerimientos para el nuevo módulo a desarrollar e-commerce (colocarlos en el Product Backlog del Project)
 - Plantear Historias de Usuarios y Tareas dependientes de las US para incorporarlas en el repositorio remoto GitHub. (Issues y Milestones) - Tener en cuenta la redacción adecuada para las US y nomenclatura, ej “#US01 Como usuario quiero ingresar al carrito para poder comprar”  
 - Definir tareas dentro de las Historias de Usuario (GITHUB) ej dentro de las ISSUES  #TK01 revisar IEEE830.
-Meeting 20/04/2023
+Meeting 20/04/2023 : Done 
 
 
