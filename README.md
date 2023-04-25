@@ -33,6 +33,3 @@ GESTION DE PROYECTO
 - Subir al repo grupal en GitHub, mediante comandos GIT desde el local, pueden crearla en una branch por desarrollador para que cada uno tenga una copia, o directamente crear una branch FEATURE, para actualizar los cambios que no se encuentran aún en condiciones de incorporarse a la branch DEVELOP.
 - En GitHub, mediante la sección WIKI deben reflejar los avances individuales y de equipo en relación a Scrum (Ceremonias, roles, historias de usuarios, etc). Actualizar IEEE830.
 
- “FEATURE” son las branchs en las que se trabaja la mayor parte del tiempo. Cuando no se utilizan más se borran.
- “DEVELOP" es la branch donde se mantiene la versión de desarrollo más estable y reciente. La que es candidata para pasar a ser la principal (MAIN).
- La branch “MAIN” o “MASTER” es la que suele usarse para mantener las versiones estables (productivas) de nuestros proyectos. Listas para salir a producción.
