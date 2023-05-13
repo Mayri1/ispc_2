@@ -1,0 +1,247 @@
+
+
+*Especificación de requisitos de software
+
+Proyecto: ## Proyecto de Administración de canchas de padel ##
+          ====================================================
+
+Septiembre 2022
+
+--------------------------------------------------------------------------------------------
+
+Instrucciones para el uso de este formato
+
+Este formato es una plantilla tipo para documentos de requisitos del software.
+
+Está basado y es conforme con el estándar IEEE Std 830-1998.
+
+Los textos en color azul son indicaciones que deben eliminarse y, en su caso, sustituirse por los contenidos descritos en cada apartado.
+
+
+Ficha del documento
+====================
+
+Fecha
+Revisión
+Autor
+Verificado dep. Calidad.
+2022
+
+
+Contenido
+FICHA DEL DOCUMENTO	3
+CONTENIDO	4
+1	INTRODUCCIÓN	6
+1.1	Propósito	6
+1.2	Alcance	6
+1.3	Personal involucrado	6
+1.4	Definiciones, acrónimos y abreviaturas	7
+1.5	Referencias	7
+1.6	Resumen	7
+2	DESCRIPCIÓN GENERAL	7
+2.1	Perspectiva del producto	7
+2.3	Características de los usuarios	8
+2.4	Restricciones	9
+3	REQUISITOS ESPECÍFICOS - Product backlog	
+
+------------------------------------------------------------------------------------------------------------------
+
+Introducción
+_____________
+
+	Este documento es una Especificación de Requisitos Software (ERS) para el Sistema de información para la gestión de procesos y control de inventarios. Esta especificación se ha estructurado basándose en las directrices dadas por el estándar IEEE Práctica Recomendada para Especificaciones de Requisitos Software ANSI/IEEE 830, 1998.
+
+Propósito
+__________
+
+	El presente documento tiene como propósito definir las especificaciones funcionales, para el desarrollo de un sistema de información web de nuestro cliente que permitirá mostrar sus distintos establecimientos para práctica de pádel.
+	El cliente necesita ofrecer sus predios en los que cuentan con varias canchas de pádel, vestuarios(femenino y masculino), servicios de bares, cuenta con personal capacitada para la enseñanza del deporte.
+	Desea la promoción en formato de fotografías, la calidad y el estado de los predios, indicando la ubicación, el acceso y los medios de transporte públicos que llegan a esos lugares.
+	Otra finalidad que presenta el cliente es ofrecer clases de pádel para aquellos que esten interesados, con un buen sistema informático que detalle los días, horarios, lugar y costo.
+Alcance
+________
+
+Esta especificación de requisitos está dirigida al usuario del sistema móvil y web, de distintos dispositivos. Por la ubicación de los predios, los interesados serán de la capital cordobesa y localidades cercanas.
+El servicio que ofrece el cliente, no presenta inconvenientes en relación a sexo, edad, religión, cultura, etc. Está dirigido para aquellos que tengan interés por este deporte.
+
+Personal involucrado
+_____________________
+
+*Nombre =AGUSTIN CHAROQUÍ, EDUARDO IUORIO, VERONICA GUERRERO
+
+
+*Rol = Programar las acciones que  necesitamos que hagan los visitantes para cumplir los objetivos del proyecto.
+
+
+*Categoría Profesional = Desarrollo web
+
+
+*Responsabilidad = Ocuparse de la parte técnica y dar forma a la estructura de la página web.
+
+
+*Información de contacto = agustin_chrq@hotmail.com, eduiuorio@gmail.com, guerreroveronicar2013@gmail.com
+*****************************************
+*Nombre =FLAVIA ANDRIANI, JONATHAN BUSTOS
+
+
+*Rol = Dar forma a los elementos visuales de la página.
+
+
+*Categoría Profesional = Diseñador Gráfico
+
+
+*Responsabilidad = Implementar recursos visuales que despierten interés al visitante, con los que pueda transmitir los valores de la empresa.
+
+
+*Información de contacto =  flavia.andriani@mi.unc.edu.ar, jonathanbustos012@gmail.com
+*****************************************
+*Nombre =ELIANA DOMINGUEZ
+
+
+*Rol = Transmitir el mensaje de manera correcta.
+
+
+*Categoría Profesional = Redactor de Contenidos.
+
+
+*Responsabilidad =Traducir a mensajes las ideas que la empresa quiera transmitir a los lectores.
+Debe trabajar con una serie de palabras claves o keywords, para mejorar la posición de cara a los buscadores.
+
+
+*Información de contacto =  crisely.cye@gmail.com
+*****************************************
+*Nombre = MARIA DE LOS ANGELES CEJAS
+
+
+*Rol = Organizar el trabajo de equipo
+
+
+*Categoría Profesional = Project Manager
+
+
+*Responsabilidad = Identificar los tiempos de ejecución, coordinar las fases y será el responsable final de la web. 
+ Supervisar las tareas del equipo y determinar las modificaciones o adaptaciones que se deben llevar a cabo.
+
+
+*Información de contacto =  maryangeles0016@gmail.com
+*****************************************
+*Nombre =DIEGO GARAY
+
+
+*Rol =Seguir siempre al comsumidor, es el encargado del marketing
+
+
+*Categoría Profesional = Marketing Digital
+
+
+*Responsabilidad = Deberá tener en cuenta todas las opiniones de los visitantes y elaborar diferentes estrategias para conseguir una buena difusión en el mercado.
+
+
+*Información de contacto =  diegogaray1987@gmail.com
+*****************************************
+*Nombre =ENZO ESQUIVEL
+
+
+*Rol = Difundir el proyecto web a través de los buscadores
+
+
+*Categoría Profesional = Seo/sem Manager
+
+
+*Responsabilidad = Indicar al redactor de contenidos las keys más interesantes, crear campañas en Google Adwords,
+Gestionar los presupuestos para obtener el máximo rendimiento con la mínima inversión.
+
+
+*Información de contacto =  enzomateo2002@gmail.com
+-----------------------------------------------------------------------------------------------------------------
+Definiciones, acrónimos y abreviaturas
+_______________________________________
+
+Nombre                                                                                          Descripción
+_______                                                                                        ______________
+Usuario                                                                                          Persona que usará el sistema para gestionar procesos
+
+SIS-I                                                                                            Sistema de Información Web para la Gestión de Procesos Administrativos y Académicos
+
+ERS                                                                                              Especificación de Requisitos Software
+
+RF                                     
+	
+2. Descripción General.
+
+2.1 Perspectiva del producto.
+1. Siendo desarrollado para un manejo eficaz dentro del entorno web y en relación con la actividad en cuestión.
+2. TDB.
+
+2.2 FUNCIONES DEL PRODUCTO:
+1. El sistema enviará un correo electrónico cuando se registre alguna de las siguientes transacciones: solicitud de turno y confirmación de la misma, emisión de factura y registro de pago de usuario 
+2. Al aprobar un pedido, la solicitud pasará al siguiente paso del flujo de trabajo (workflow) de aprobación configurado en el sistema.
+3. El sistema permitirá a los usuarios autorizados ingresar planes y cronogramas.
+4. El sistema permitirá aprobar, cambiar o actualizar planes y cronogramas. 
+5. Una vez registrado cada usuario se le asignará un número de identificación. 
+6. El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados. Los usuarios deben ingresar al sistema con un nombre de usuario y contraseña.
+7. El sistema enviará una alerta al administrador del sistema cuando ocurra alguno de los siguientes eventos: Registro de nueva cuenta, ingreso al sistema por parte del cliente, 2 o más intentos fallidos en el ingreso de la contraseña de usuario y cambio de contraseña de usuario.
+8. Cualquier intercambio de datos vía internet que realice el software se realizará por medio del protocolo encriptado HTTP.
+9. Permitir la creación y correcto desarrollo de competiciones de pádel: El objetivo principal es facilitar en la mayor medida de lo posible la creación y supervisión de las competiciones que en ella se creen. Podrá permitir que cualquier usuario pueda crear competiciones.
+10. La tienda tendrá productos expuestos a través de mi carrito.
+11. Estos artículos serán principalmente palas, pelotas y camisetas, que se pedirán a un único proveedor y se venderán directamente a los clientes en el club, sin intermediarios. 
+12. Habrá un pequeño stock de estos productos en un almacén, construido para este propósito.
+13. Estará disponible para el cliente un pequeño catálogo con los artículos en venta.
+14. Nombre de la marca y logo.
+15. Menú con categorías.
+16. Formas de pago.
+17. Metodo de envío. 
+18. Contacto.
+
+2.3 Características de los Usuarios.
+1. Los usuarios finales de este producto son personas sin requerir ningún tipo de formación previa.
+2. Adicionalmente serán usuarios de este producto, técnicos electrónicos que se ocuparán del mantenimiento del software.
+
+2.4 Restricciones.
+1. El software debe mantenerse bajo control de versiones.
+
+2.5 Requisitos Futuros.
+1. En el futuro se prevé agregar distintas funcionalidades como la creación de un chat donde puedan interactuar los usuarios.
+2. Posibilidad de exportar horarios, torneos y demás determinaciones con respecto a la actividad en versión PDF.
+3. Desarrollar aplicación móvil.
+4. Mejoramientos de algoritmo para autogestión.
+
+3. Requisitos específicos 
+Product Backlog
+
+#RUS01 - Acompañante
+Descripción: Como usuario quiero que haya una opción para que pueda jugar con alguien en el caso que no tenga compañero.
+#RUS02 - Cotización
+Descripción: Como usuario quiero que la página contenga información sobre el precio y los medios de pago de cada cancha.
+#RUS03 - Servicios extras
+Descripción: Como usuario quiero que muestre una descripción y fotos de los servicios adicionales que cuenta el club.
+#RUS04 - Cronograma
+Descripción: Como usuario quiero poder acceder en forma virtual a los días y horarios de las canchas disponibles.
+#RUS05 – Contacto
+Descripción: Como usuario quiero ver las formas de contactar al club para obtener el asesoramiento necesario.
+#RUS06 – Ubicación
+Descripción: Como usuario quiero ver la localización del club y los medios de transportes cercanos para elegir la mejor opción para ir al club.
+#RUS07 - Puntuación
+Descripción: Como usuario quiero ver la calificación que tiene el club para ver su reputación.
+#RUS08 - Feedback/Opinión
+Descripción: Como usuario quiero calificar al club y poder escribir un comentario para reflejar mi experiencia.
+#RUS09 - Descripción de canchas
+Descripción: Como usuario quiero saber con qué tipo de característica cuenta cada cancha.
+#RUS10 - Registro universal
+Descripción: Como usuario quiero tener la posibilidad de hacerme socio para poder acceder a todas las instalaciones asociadas al club.
+#RUS11- Tienda
+Descripción: Como usuario quiero la opción donde me indique varios puntos donde se venda indumentaria y accesorios de padel.
+#RUS12 - Información de torneo
+Descripción: Como usuario quiero ver los resultados del día, fixture/calendario con los próximos partidos para estar actualizado.
+#RUS13 - Instalaciones
+Descripción: Como usuario quiero ver aspectos del establecimiento como lugar, baños, canchas, disponibilidad horaria, para su uso.
+#RUS14 - Torneos
+Descripción: Como usuario quiero poder ver e inscribirme en torneos para poder competir con gente de mi nivel.
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+Realizar la carga de la tabla teniendo en cuenta todos los sprint que se realicen para este espacio curricular.
+
+
+
+
