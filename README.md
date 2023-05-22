@@ -1,3 +1,8 @@
+Queremos aprovechar este esapcio para informarles sobre nuestro compromiso y esfuerzo en el reajuste de un proyecto de ecommerce que perteneció a otro equipo el año pasado. Nos hemos encontrado con la situación de que este proyecto se encuentra incompleto y requiere una considerable cantidad de ediciones para alcanzar los estándares deseados.
+
+Conscientes de la importancia de esta tarea, nuestro equipo se ha dedicado a trabajar en la optimización y corrección de este proyecto de ecommerce. Nuestro objetivo es lograr una versión final que cumpla con los requisitos establecidos y demuestre nuestro compromiso y dedicación.
+
+
 # ispc_2
 Repositorio grupal - 2do año Desarrollo Web y Aplicaciones Digitales
 (https://github.com/AngelesMary/Proyecto-Full-stack  --- PADEL CLUB PROYECTO FULLSTACK - REPO ANTERIOR)
